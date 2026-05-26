@@ -159,20 +159,6 @@ nav{
 .btn-form:hover{background:var(--p2);transform:translateY(-1px);box-shadow:0 6px 18px rgba(99,91,255,.45)}
 
 /* BROKER BAND */
-.broker-band{background:var(--off);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:44px 24px}
-.bband-inner{max-width:860px;margin:0 auto;display:flex;align-items:center;gap:40px;flex-wrap:wrap}
-.bband-logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.bband-logo-mark{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--p1),var(--p3));display:flex;align-items:center;justify-content:center}
-.bband-logo-mark svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.bband-name{font-size:16px;font-weight:700;letter-spacing:-.02em;color:var(--dark)}
-.bband-name span{color:var(--p1)}
-.bband-divider{width:1px;height:40px;background:var(--border);flex-shrink:0}
-.bband-text{font-size:13.5px;font-weight:400;line-height:1.7;color:var(--text);flex:1}
-.bband-text a{color:var(--p1);text-decoration:none;font-weight:500}
-.bband-text a:hover{text-decoration:underline}
-.bband-fca{display:flex;align-items:center;gap:8px;background:rgba(99,91,255,.07);border:1px solid rgba(99,91,255,.18);border-radius:8px;padding:10px 16px;flex-shrink:0}
-.bband-fca svg{width:18px;height:18px;fill:none;stroke:var(--p1);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.bband-fca span{font-size:12px;font-weight:600;color:var(--p1);letter-spacing:.02em}
 
 /* FOOTER */
 footer{background:#0d1017;padding:56px 24px 32px}
@@ -492,20 +478,6 @@ footer{background:#0d1017;padding:56px 24px 32px}
   </div>
 </section>
 
-      <div>
-        <div class="bband-name">Pask <span>&</span> Pask</div>
-        <div style="font-size:11px;color:var(--text);font-weight:400">FCA Regulated</div>
-      </div>
-    </div>
-    <div class="bband-divider"></div>
-    <p class="bband-text">Pask and Pask Limited registered in England &amp; Wales. Registration number: 11911449. Registered address: 28 Broad Street, Wokingham, Berkshire, RG40 1AB. Pask and Pask Commercial Finance is a trading style of Pask and Pask Limited (FRN: 937854). Pask and Pask Limited are credit brokers and appointed representatives of White Rose Finance Group Ltd (FRN: 630772) who are directly authorised by the Financial Conduct Authority. <strong>PLEASE MAKE BORROWING DECISIONS CAREFULLY, PROPERTY OR OTHER ASSETS OFFERED AS SECURITY MAY BE AT RISK IF YOU CANNOT KEEP UP WITH REPAYMENTS.</strong></p>
-    <div class="bband-fca">
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <span>FCA Regulated Broker</span>
-    </div>
-  </div>
-</div>
-
 <!-- FOOTER -->
 <footer>
   <div class="fwrap">
@@ -556,9 +528,9 @@ footer{background:#0d1017;padding:56px 24px 32px}
     </div>
     <div class="fbot">
       <p class="fcopy">Copyright © 2025 SBG Trading Ltd. All rights reserved.</p>
-      <p class="ffca">Finance arranged by Pask & Pask — Authorised & Regulated by the FCA. Credit broker, not a lender.</p>
+      <p class="ffca">SBG Trading Ltd. All funding subject to status and lender criteria.</p>
     </div>
-    <p class="fdiscl">This website is operated by SBG Trading Ltd. All funding products featured on this site are introduced and arranged by <a href="https://www.paskandpask.com" target="_blank" rel="noopener">Pask & Pask</a>, a specialist commercial finance broker authorised and regulated by the Financial Conduct Authority. Pask & Pask act as a credit broker, not a lender, and may receive remuneration from lenders on successful completion of a transaction. Merchant cash advances and flexible credit facilities may not be regulated credit agreements. Structured business loans are non-regulated commercial loans. Your business assets may be at risk if you do not maintain repayments on a secured loan. All lending is subject to status and lender criteria. Past performance is not indicative of future results.</p>
+    <p class="fdiscl">This website is operated by SBG Trading Ltd, trading as Funding Fusion. All lending is subject to status and lender criteria. Merchant cash advances and flexible credit facilities may not be regulated credit agreements. Structured business loans are non-regulated commercial loans. Your assets may be at risk if you do not maintain repayments on a secured loan. PLEASE MAKE BORROWING DECISIONS CAREFULLY — PROPERTY OR OTHER ASSETS OFFERED AS SECURITY MAY BE AT RISK IF YOU CANNOT KEEP UP WITH REPAYMENTS.</p>
   </div>
 </footer>
 
@@ -632,11 +604,7 @@ window.addEventListener('scroll', () => {
   .fg.s2 { grid-column: 1; }
 
   /* BROKER BAND */
-  .broker-band { padding: 32px 20px; }
-  .bband-inner { flex-direction: column; gap: 20px; align-items: flex-start; }
-  .bband-divider { display: none; }
-  .bband-fca { align-self: flex-start; }
-
+      
   /* FOOTER */
   footer { padding: 44px 20px 28px; }
   .ftop { flex-direction: column; gap: 32px; }
